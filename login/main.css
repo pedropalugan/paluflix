@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.perfis {
+    padding-left: 20%;
+    padding-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 20%;
+}
+.p1 :hover {
+    transition: 0.5s;
+    transform: scale(1.25,1.25)
+}
+
+.p2 :hover {
+    transition: 0.5s;
+    transform: scale(1.25,1.25)
+}
+
+.p3 :hover {
+    transition: 0.5s;
+    transform: scale(1.25,1.25)
+}
+
+.nomes {
+    padding-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-top: 5%; 
+}
+
+.n1 {
+    margin-left: 0%;
+}
+
+
+.n3 {
+    margin-right: 7.5%;
+
+}
+.usavel :hover {
+    transition: 0.5s;
+    transform: scale(1.25,1.25)
+}
+
+.nusa {
+    margin-left: 5%;
+}
+
+
+@media (max-width: 1600px){
+    img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 1200px){
+    img {
+        height: 140px;
+    }
+}
+
+@media (max-width: 900px){
+    img {
+        height: 100px;
+    }
+    .nomes {
+        margin-left: -10%;
+    }
+
+    .nomes .n3 {
+        margin-right: -5%;
+    }
+}
+
+@media (max-width: 650px){
+    img {
+        height: 60px;
+    }
+    .usavel h3 {
+        width: 50%;
+    }
+
+    
+@media (max-width: 420px){
+    img {
+        height: 40px;
+    }
+    .perfis img {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    body h3{
+        font-size: smaller;
+    }
+}
+
+    .nusa {
+        width: 20px;
+    }
+
+    .n1 {
+        margin-left: 7.5%;
+    }
+
+    .n3 {
+        margin-right: 0%;
+    }
+}
+
+.usavel h3 {
+    text-align: center;
+    margin-top: 7.5%;
+}
+.p1 h3 {
+    text-align: center;
+    margin-top: 7.5%;
+}
+.p2 h3 {
+    text-align: center;
+    margin-top: 7.5%;
+}
+.p3 h3 {
+    text-align: center;
+    margin-top: 7.5%;
+}

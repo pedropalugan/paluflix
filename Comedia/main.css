@@ -1,0 +1,854 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Oswald&display=swap');
+
+* {  
+    margin: 0;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Oswald&display=swap');
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.titcartaz {
+    margin-top: 30%;
+    margin-left: 16%;
+    color: White;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+
+.btn h2 {
+    color: rgba(199, 17, 17, 0.555);
+}
+
+.navfilm p {
+    color: white;
+}
+
+.navser p {
+    color: white;
+}
+
+.btn a{
+    background-color: black;
+    color:rgba(199, 17, 17, 0.555);
+}
+
+.btn {
+    background-color: black;
+    color:rgba(199, 17, 17, 0.555);
+}
+
+
+.btn:hover .nav {
+    transition: 5s;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.desc {
+    width: 50%;
+}
+
+.taolhandoaquipq{
+    color: transparent;
+}
+
+.sabmais {
+    width: 40%;
+}
+
+.sabmais :hover {
+    transition: 0.75s;
+    background-color: red;
+    color: black;
+    border: solid 3px rgba(199, 17, 17, 0.555);
+    border-radius: 20%;
+}
+
+.logo {
+    background-color: black;
+    justify-content: space-around;
+}
+
+.logo a h1 {
+    background-color: black;
+    margin-left: 44.4444%;
+    color: rgba(199, 17, 17, 0.555);
+    font-size: 500%;
+}
+
+.fade {
+    background-image: linear-gradient(to right, black, rgb(54, 47, 47), transparent );
+    margin-right: 50%;
+    margin-top: 0%;
+}
+
+main {
+    background-color: black;
+    color:white;
+}
+
+main h3 {
+    margin-left: 5%;
+}
+
+#destaques {
+    margin-left: 7.5%;
+    display: flex;
+    justify-content: space-around;    
+}
+.item1:hover {
+    transition: 0.5s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+
+.item2 :hover  {
+    transition: 0.5s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item3 :hover  {
+    transition: 0.5s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item4 :hover  {
+    transition: 0.5s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item5 :hover  {
+    transition: 0.5s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item6 :hover  {
+    transition: 0.5s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+
+@media (max-width: 1315px) {
+    .filmes img{
+        width: 140px;
+        height: 185px;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 450px){
+    .filmes img {
+        width: 60px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 449px){
+    .filmes img {
+        width: 30px;
+        height: 45px;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.contato {
+    margin-top: 2.5%;
+    margin-left: 5%;
+}
+
+.vaicuidardasuavida {
+    color: black;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1000px){
+    img {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 1000px){
+    .titcartaz img {
+        width: 1000px;
+    }
+}
+
+.navfilm h4 {
+    border-bottom: solid 2px rgba(199, 17, 17, 0.555);
+    color: rgba(199, 17, 17, 0.555);
+}
+
+.navser h4 {
+    border-bottom: solid 2px rgba(199, 17, 17, 0.555);
+    color: rgba(199, 17, 17, 0.555);
+}
+
+
+@media (max-width: 800px) {
+    .logo a h1 {
+        font-size: 250%;
+    }
+
+
+}
+
+@media (max-width: 700px){
+    .sabmais h3 {
+        width: 200%;
+    }
+}
+
+.filmes {
+    margin-top: 0%;
+}
+
+.legenda {
+    margin-top: 5%;
+}
+
+.ser:hover h2{
+    transition: 0.75s;
+    color: red;
+    font-size: xx-large;
+}
+
+.fil:hover h2{
+    transition: 0.75s;
+    color: red;
+    font-size: xx-large;
+}
+
+.serser {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.s1:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow:15px 15px 15px red;
+}
+
+.s1 p{
+    color: transparent;
+}
+
+.s1:hover p {
+    transition: 0.5s;
+    color: white;
+}
+
+.s2:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow:15px 15px 15px red;
+}
+
+.s2 p{
+     color: transparent;
+}
+
+.s2:hover p {
+    transition: 0.5s;
+    color: white;
+}
+
+.s3:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow:15px 15px 15px red;
+}
+
+.s3 p{
+    color: transparent;
+}
+
+.s3:hover p {
+    transition: 0.5s;
+    color: white;
+}
+
+.s4:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow:15px 15px 15px red;
+}
+.s4 p{
+    color: transparent;
+}
+
+.s4:hover p {
+    transition: 0.5s;
+    color: white;
+}
+
+
+.s5:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow:15px 15px 15px red;
+}
+.s5 p{
+    color: transparent;
+}
+
+.s5:hover p {
+    transition: 0.5s;
+    color: white;
+}
+
+
+
+.fil{
+    margin-top: 5%;
+}
+
+.filfil {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.f1:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow: 15px 15px 15px red;
+
+}
+.f1 p {
+    color: transparent;
+}
+
+.f1:hover p {
+    transition: 0.5s;
+    color: white;
+}
+.f2:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow: 15px 15px 15px red;
+}
+.f2 p {
+    color: transparent;
+}
+
+.f2:hover p {
+    transition: 0.5s;
+    color: white;
+}
+
+.f3:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow: 15px 15px 15px red;
+}
+.f3 p {
+    color: transparent;
+}
+
+.f3:hover p {
+    transition: 0.5s;
+    color: white;
+}
+
+.f4:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow: 15px 15px 15px red;
+}
+.f4 p {
+    color: transparent;
+}
+
+.f4:hover p{
+    transition: 0.5s;
+    color: white;
+}
+
+.f5:hover img{
+    transition: 0.75s;
+    transform: scale(1.25,1.25);
+    box-shadow: 15px 15px 15px red;
+}
+.f5 p {
+    color: transparent;
+}
+
+.f5:hover p {
+    transition: 0.5s;
+    color: white;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+@media (max-width: 1150px){
+    main img {
+        height: 240px;
+        width: 190px;
+    }
+}
+
+@media (max-width: 975px){
+    main img {
+        height: 200px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 850px){
+    main img {
+        height: 180px;
+        width: 135px;
+    }
+}
+
+@media (max-width: 700px){
+    .serser {
+        display: grid;
+    }
+    .s1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s2{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s4 {
+        grid-column-start:1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .s5{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .filfil {
+        display: grid;
+    }
+    .f1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f2{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .f5{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+}
+
+@media (max-width: 550px){
+    .serser {
+        display: grid;
+    }
+    .s1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s2{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s4 {
+        grid-column-start:1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .s5{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .filfil {
+        display: grid;
+    }
+    .f1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f2{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .f5{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    main img {
+        height: 150px;
+        width: 115px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .serser {
+        display: grid;
+    }
+    .s1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s2{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s4 {
+        grid-column-start:1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .s5{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .filfil {
+        display: grid;
+    }
+    .f1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f2{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .f5{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    main img {
+        height: 125px;
+        width: 95px;
+    }
+
+}
+
+@media (max-width: 425px){
+    .serser {
+        display: grid;
+    }
+    .s1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s2{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .s4 {
+        grid-column-start:2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .s5{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .filfil {
+        display: grid;
+    }
+    .f1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f2{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .f4 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .f5{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    main img {
+        height: 125px;
+        width: 95px;
+    }
+
+}
+
+
+
+main h1 {
+    color: rgba(199, 17, 17, 0.555);
+    margin-top: 5%;
+    text-align: center;
+}
+
+.perfil {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem_de_fundo {
+    background-image: url("images/the-hangover-part-iii-2K-wallpaper.jpg");
+    background-size: 1920px, 1080px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.txtH {
+    width: 35%;
+    margin-left: 25%;
+}
+
+.palugan {
+    background-image: linear-gradient(to right, black, #454346,  transparent );
+    width: 50%;
+}
+
+@media (max-width: 1400px){
+    .txtH {
+        width: 80%;
+    }
+    .sabmais {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1100px){
+    .txtH {
+        width: 100%;
+    }
+    .sabmais {
+        width: 30%;
+    }
+}
+
+@media (max-width: 800px){
+    .txtH {
+        width: 120%;
+    }
+    .sabmais {
+        width: 20%;
+    }
+    .imagem_de_fundo {
+        background-size: 1500px, 1320px;
+    }
+}
+
+@media (max-width: 600px){
+    .txtH {
+        width: 150%;
+    }
+    .sabmais {
+        width: 15%; 
+    }
+    .imagem_de_fundo {
+        background-size: 1300px, 1140px;
+    }
+}
+
+@media (max-width: 400px){
+    .txtH {
+        width: 100%;
+    }
+
+    .sabmais {
+        width: 15%; 
+    }
+
+    header h1 {
+        align-self: center;
+    }
+
+    .imagem_de_fundo{
+        margin-right: -100px;
+    }
+
+    .s1 {
+        margin-left: 50px;
+    }
+
+    .f1 {
+        margin-left: 50px;
+    }
+    .s4 {
+        margin-left: 50px;
+    }
+
+    .f4 {
+        margin-left: 50px;
+    }
+
+
+    .btn h2 {
+        margin-left: 50px;
+    } 
+} 
+
+.ser p {
+    margin-top: 20%;
+    font-size: x-large;
+}
+
+.filfil p {
+    margin-top: 20%;
+    font-size: x-large;
+}

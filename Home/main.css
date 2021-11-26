@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+header {
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+
+.inicio {
+    background-color: black;
+    color: red;
+}
+.inicio h1 {
+    text-align: center;
+    font-size:  100px;
+}
+
+body {
+    background-color: black;
+}
+.nav {
+    background-color: black;
+    color:rgba(199, 17, 17, 0.555);
+    display: none;
+}
+
+.navfilm p {
+    color: white;
+}
+.navser p {
+    color: white;
+}
+
+.btn a{
+    background-color: black;
+    color:rgba(199, 17, 17, 0.555);
+}
+
+.btn {
+    width: 100%;
+    background-color: black;
+    color:rgba(199, 17, 17, 0.555);
+}
+
+
+.btn:hover .nav {
+    transition: 1s;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.desc1 {
+    margin-left: 15%;
+    width: 25%;
+    color: white;
+}
+.desc2 {
+    margin-left: 15%;
+    width: 25%;
+    color: white;
+}.desc3 {
+    margin-left: 15%;
+    width: 25%;
+    color: white;
+}
+
+@media (max-width: 1150px){
+    .desc1 {
+        width: 50%;
+    }
+    .desc2 {
+        width: 50%;
+    }
+    .desc3 {
+        width: 50%;
+    }
+}
+@media (max-width: 700px){
+    .desc1 {
+        width: 80%;
+    }
+    .desc2 {
+        width: 80%;
+    }
+    .desc3 {
+        width: 80%;
+    }
+    .inicio h1 {
+        font-size: 50px;
+    }
+}
+
+.destaques {
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item1 p {
+    margin-top: 10%;
+}
+.item2 p {
+    margin-top: 10%;
+}
+.item3 p {
+    margin-top: 10%;
+}
+.item4 p {
+    margin-top: 10%;
+}
+.item5 p {
+    margin-top: 10%;
+}
+.item6 p {
+    margin-top: 10%;
+}
+
+.destaques a {
+    color: transparent;
+}
+.item1:hover a {
+    transition: 0.75s;
+    color: white;
+}
+.item2:hover a {
+    transition: 0.75s;
+    color: white;
+}
+.item3:hover a {
+    transition: 0.75s;
+    color: white;
+}
+.item4:hover a {
+    transition: 0.75s;
+    color: white;
+}
+.item5:hover a {
+    transition: 0.75s;
+    color: white;
+}
+.item6:hover a {
+    transition: 0.75s;
+    color: white;
+}
+
+.item1:hover img{
+    transition: 0.75s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item2:hover img{
+    transition: 0.75s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item3:hover img{
+    transition: 0.75s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item4:hover img{
+    transition: 0.75s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item5:hover img{
+    transition: 0.75s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+.item6:hover img{
+    transition: 0.75s;
+    transform: scale(1.15, 1.15);
+    box-shadow: 10px 10px 10px red;
+}
+
+.titdest {
+    margin-top: 2.5%;
+    color: white;
+}
+
+@media (max-width: 1400px){
+    .destaques img {
+        height: 240px;
+        width: 185px;
+    }
+}
+@media  (max-width: 1250px) {
+    .destaques {
+        margin-left: 5%;
+        margin-right: 5%;
+        display: grid;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin-bottom: 5%;
+    }
+    .item2 {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin-bottom: 5%;
+    }
+    .item3 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin-bottom: 5%;
+    }
+    .item4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .item5 {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start:2;
+        grid-row-end: 2;
+    }
+    .item6 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .destques img {
+        height: 280px;
+        width: 210px;
+    }
+    
+}
+
+@media (max-width: 675px){
+    .destaques img {
+        height: 200px;
+        width: 155px;
+    }
+}
+
+@media (max-width: 550px){
+    .destaques img {
+        height: 175px;
+        width: 127px;
+    }
+}
+@media (max-width: 450px){
+    .destaques img {
+        height: 130px;
+        width: 95px;
+    }
+}
+
+.titgost h2 {
+    color: white;
+}
+.gostar {
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gostar1:hover img {
+    transform: scale(1.10, 1.10);
+    transition: 0.75s;
+    box-shadow: 20px 20px 20px white;
+}
+.gostar2:hover img {
+    transform: scale(1.10, 1.10);
+    transition: 0.75s;
+    box-shadow: 20px 20px 20px white;
+}
+.gostar3:hover img {
+    transform: scale(1.10, 1.10);
+    transition: 0.75s;
+    box-shadow: 20px 20px 20px white;
+}
+.gostar4:hover img {
+    transform: scale(1.10, 1.10);
+    transition: 0.75s;
+    box-shadow: 20px 20px 20px white;
+}
+
+@media (max-width: 1870px){
+    .gostar img{
+        height: 400px;
+        width: 310px;
+    }
+}
+
+@media (max-width: 1400px){
+    .gostar {
+        display: grid;
+        row-gap: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .gostar1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .gostar2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .gostar3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .gostar4 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+}
+
+@media (max-width: 750px){
+    .gostar img {
+        height: 350px;
+        width: 285px;
+    }
+}
+@media (max-width: 675px){
+    .gostar img {
+        height: 300px;
+        width: 235px;
+    }
+}
+@media (max-width: 550px){
+    .gostar img {
+        height: 250px;
+        width: 190px;
+    }
+}
+@media (max-width: 450px){
+    .gostar img {
+        height: 200px;
+        width: 135px;
+    }
+}
+.contato {
+    display: flex;
+    justify-content: space-around;
+}
+footer h2 {
+    color: white;
+}
+.contato img {
+    background-color: #6C696D;
+}
+footer {
+    margin-top: 5%;
+    background-color: #6C696D;
+    border-top: red solid 3px;
+}
+.navfilm h4{
+    border-bottom: rgba(199, 17, 17, 0.555) solid 2px;
+}
+.navser h4{
+    border-bottom: rgba(199, 17, 17, 0.555) solid 2px;
+}
